@@ -11,7 +11,12 @@ class Triangle
 
   def kind
     
+    # triangle rules 
     
+    
+    # isocoeles 
+    # equilateral
+    # scalene
 
   end 
   
