@@ -12,7 +12,11 @@ class Triangle
   def kind
     
     # triangle rules 
+    # sum of the lengths of any two sides of triangle can't exceed the length of the third side
     
+    
+    
+    # principle known as the triangle inequality 
     
     # isocoeles 
     # equilateral
