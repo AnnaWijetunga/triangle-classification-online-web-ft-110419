@@ -17,7 +17,10 @@ class Triangle
           puts error.message
           end 
     elseif s1 +== s2 && s1 == s3
-      seslf.kind = :equilateral
+      self.kind = :equilateral
+      
+    elseif s1 +== s2 && s1 == s3
+      self.kind = :equilateral
       
     end
     
