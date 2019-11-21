@@ -13,7 +13,7 @@ class Triangle
     
     # triangle rules 
     # sum of the lengths of any two sides of triangle can't exceed the length of the third side
-    
+    if (@s1 + @s2 >
     
     
     # principle known as the triangle inequality 
