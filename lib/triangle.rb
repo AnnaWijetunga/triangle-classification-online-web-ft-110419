@@ -14,7 +14,9 @@ class Triangle
     # triangle rules 
     # sum of the lengths of any two sides of triangle can't exceed the length of the third side
     if (@s1 + @s2) <= @s3 || (@s2 + @s3) <= @s1 || (@s3 + @s1) <= @s2
-    
+      raise TriangleError
+    end
+  end 
     
     # principle known as the triangle inequality 
     
