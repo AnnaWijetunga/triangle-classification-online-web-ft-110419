@@ -10,16 +10,17 @@ class Triangle
   end 
 
   def kind
-    if (s1 * s2 * s3) == 0 || (s1 + s2) <= s3 || (s2 + s3) <= s1 || (s3 + s1) <= s2
-      begin
-        raise TriangleError
-      end 
-    elseif s1 == s2 && s1 == s3
+  if (s1 * s2 * s3) == 0 || (s1 + s2) <= s3 || (s2 + s3) <= s1 || (s3 + s1) <= s2
+    begin
+      raise TriangleError
+    end 
+    
+    elsif s1 == s2 && s1 == s3
       self.kind = :equilateral
       
-    elseif s1 == s2 || s1 == s3 || s2 == s3
+    elsif s1 == s2 || s1 == s3 || s2 == s3
       self.kind = :isosceles
-      
+
     else
       self.kind = :scalene
     end
