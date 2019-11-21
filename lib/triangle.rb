@@ -22,11 +22,11 @@ class Triangle
     elseif s1 == s2 || s1 == s3 || s2 == s3
       self.kind = :isosceles
       
-    elseif s1 == s2 || s1 == s3 || s2 == s3
+    else
       self.kind = :scalene
-      
     end
   end 
+end 
   
   class TriangleError < StandardError
     #triange error code 
