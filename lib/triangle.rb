@@ -12,7 +12,11 @@ class Triangle
   def kind
     
     
-    
+
+  end 
+  
+  class TriangleError < StandardError
+    #triange error code 
   end 
   
 end
