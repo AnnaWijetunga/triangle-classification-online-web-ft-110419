@@ -22,14 +22,10 @@ class Triangle
     elseif s1 == s2 || s1 == s3 || s2 == s3
       self.kind = :isosceles
       
+    elseif s1 == s2 || s1 == s3 || s2 == s3
+      self.kind = :scalene
+      
     end
-    
-    # principle known as the triangle inequality 
-    
-    # isocoeles 
-    # equilateral
-    # scalene
-
   end 
   
   class TriangleError < StandardError
